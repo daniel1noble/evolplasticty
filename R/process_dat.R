@@ -36,5 +36,5 @@ data$native.species <- ifelse(data$native.species == "Podolepis gracilis, Podoth
 data <- round_df(data, 3)
 
 # Export final data
-write.csv(data, file = "./output/data/plast_metadata.csv")
+write.csv(data, file = "./output/data/plast_metadata.csv", row.names = FALSE)
 

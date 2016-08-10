@@ -7,7 +7,7 @@ output: html_document
 ##Data manipulation: Read in the raw data
 
 This loads the packages if necessary
-```{r,message=FALSE}
+```{r, message=FALSE, warning = FALSE}
 source("R/packages.R")
 ```
  Read data

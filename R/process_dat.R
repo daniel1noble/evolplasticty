@@ -1,5 +1,9 @@
 
 ##--------------  Data manipulation: Read in the raw data ---------------##
+#Clear working space
+rm(list = ls())
+
+#Source some functions and load packages
 source("./R/packages.R")
 
 # Read data

@@ -10,9 +10,8 @@ This loads the packages if necessary
 ```{r, message=FALSE, warning = FALSE}
 source("R/packages.R")
 ```
- Read data
+ Read data from a supplemental materil of a meta-analysis.
 ```{r}
-
 data <- read.xls("data/ELE_1596_sm_appendixS1.xls", blank.lines.skip = TRUE, stringsAsFactors = FALSE)
 ```
 Weird data read, added extra columns and and we want to clean up this data to make it look pretty.

@@ -20,3 +20,6 @@ round_df <- function(x, digits) {
     x[numeric_columns] <-  round(x[numeric_columns], digits)
     x
 }
+
+## Added some detail about the above function Sounds a dataframe.
+

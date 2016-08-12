@@ -2,5 +2,5 @@
 
 source("./R/func.R")
 
-packages <- c("gdata", "plyr", "car", "metafor", "MCMCglmm")
+packages <- c("gdata", "plyr", "car")
 install.pkg(packages)
